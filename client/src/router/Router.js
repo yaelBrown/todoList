@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom"
 
-import Home from "../views/home/home"
-import Login from "../views/login/login"
-import Todo from "../views/todo/todo"
+import Home from "../views/home"
+import Login from "../views/login"
+import Todo from "../views/todo"
 
 export default class Router extends Component {
     render() {
